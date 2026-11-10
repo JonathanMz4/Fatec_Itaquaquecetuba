@@ -1,0 +1,6 @@
+produto=input("Qual o produto? ")
+quantidade=input("quantos foram comprandos? ")
+preco=int(input("qual foi o valor total da compra? "))
+desconto=(preco*0.1)
+total=int(preco-desconto)
+print(f"A compra de {quantidade} {produto}, com o preço original de {preco}, teve um desconto de {desconto} e o valor a ser pago é: {total}")
